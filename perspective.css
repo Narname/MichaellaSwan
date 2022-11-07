@@ -1,0 +1,64 @@
+body {
+    background: #304e6c;
+    font-size: 58px;
+    font-family: arial;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .common {
+    width: 500px;
+    margin: 30px auto;
+    position: relative;
+  }
+  .common:hover p {
+    transform: translate(0, -50px);
+  }
+  .common .itterate {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    overflow: hidden;
+    background: #304e6c;
+    position: relative;
+  }
+  .common .itterate:nth-child(1) {
+    left: 29px;
+  }
+  .common .itterate:nth-child(2) {
+    left: 58px;
+  }
+  .common .itterate:nth-child(3) {
+    left: 87px;
+  }
+  .common .itterate:nth-child(4) {
+    left: 116px;
+  }
+  .common .itterate:nth-child(5) {
+    left: 145px;
+  }
+  .common .itterate:nth-child(6) {
+    left: 174px;
+  }
+  .common .itterate:nth-child(7) {
+    left: 203px;
+  }
+  .common .itterate:nth-child(8) {
+    left: 232px;
+  }
+  .common .itterate:nth-child(odd) {
+    transform: skew(60deg, -30deg) scaleY(0.663);
+  }
+  .common .itterate:nth-child(even) {
+    transform: skew(0deg, -30deg) scaley(1.333);
+  }
+  .common .itterate p {
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    line-height: 50px;
+    transition: all 0.5s ease-in-out;
+  }
